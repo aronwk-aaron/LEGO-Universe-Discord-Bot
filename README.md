@@ -10,10 +10,9 @@
    If you do not have a `cdclient.sqlite` create one from your `cdclient.fdb` at https://fdb.lu-dev.net/.
 
 3. Install proper dependencies with `npm install`
-4. Transpile with `tsc --build`
 
-   If `tsc` is not found, install it with `npm i typescript -g` and then run `tsc --build`.
-   
+4. Transpile with `npx tsc --build`
+
 6. Run `./lib/index.js`
 
    I would recommend using something that restarts if it crashes such as pm2
